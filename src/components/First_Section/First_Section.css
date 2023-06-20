@@ -1,0 +1,44 @@
+.fisrt-section {
+  padding: 89px 0 155px 0;
+  background-color: #ebd0ff3d;
+  position: relative;
+}
+
+.main-title {
+  max-width: 550px;
+  font-size: 50px;
+  color: #2f281e;
+  font-weight: 800;
+  font-family: 'Quicksand';
+  line-height: 50px;
+}
+
+.description {
+  max-width: 480px;
+  font-weight: 400;
+  font-family: 'Nunito Sans';
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #2f281e;
+  opacity: 0.6;
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+.navigate-link {
+  padding: 17px 65px 16px 65px;
+  background: transparent linear-gradient(237deg, #4bb665 0%, #41aad2 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #00000000;
+  border-radius: 30px;
+  opacity: 1;
+  color: #ffffff;
+}
+.first-section-img {
+  position: absolute;
+  width: 550px;
+  height: 750px;
+  top: 0px;
+  right: calc(50% - 565px);
+  border-top-left-radius: 112px;
+  border-bottom-right-radius: 112px;
+}

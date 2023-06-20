@@ -1,0 +1,86 @@
+.header {
+  position: relative;
+  padding: 36px 0;
+  background-color: #EBD0FF3D;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigate-box {
+  display: flex;
+  align-items: center;
+}
+.img-logo {
+  position: absolute;
+  color: #41aad2;
+}
+.navigate-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigate-about {
+  margin-right: 62px;
+  position: relative;
+  color: #2f281e;
+  font-size: 14px;
+  font-weight: 400;
+}
+.triangle {
+  position: absolute;
+  width: 9px;
+  top: 35%;
+  left: 80px;
+}
+
+.navigate-item:nth-child(2) {
+  margin-right: 31px;
+  color: #2f281e;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navigate-item:nth-child(3) {
+  margin-right: 72px;
+}
+.navigate-item:nth-child(4) {
+  margin-right: 31px;
+}
+.for-companies,
+.about {
+  color: #2f281e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login {
+  color: #4bb665;
+}
+.sign-up {
+  padding: 14px 36px 15px 36px;
+  background-color: #4bb665;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.language {
+  padding: 14px 16px 15px 16px;
+  border: 1px solid #4bb665;
+  border-radius: 50%;
+  color: #4bb665;
+}
+
+.navigate-item:nth-child(5) {
+  margin-right: 68px;
+}
+.nav-list{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+}
+.navigate-about:hover + .nav-list
+ {
+  display: block;
+}
