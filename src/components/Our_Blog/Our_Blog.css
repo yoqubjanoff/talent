@@ -1,0 +1,207 @@
+.our-blog {
+  padding: 120px 0 0 0;
+  background: #fbf6ff 0% 0% no-repeat padding-box;
+}
+
+.our-blog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.our-blog-top-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-blog-title {
+  height: 60px;
+  font: normal normal bold 48px/60px "Quicksand";
+  letter-spacing: 0px;
+  color: #2f281e;
+  opacity: 1;
+  margin-bottom: 17px;
+}
+
+
+.our-blog-line {
+  text-align: center;
+  width: 352px;
+  height: 6px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: linear-gradient(180deg, #4bb665 0%, #41aad2 100%);
+  margin-bottom: 17px;
+  border-radius: 50px;
+}
+
+.our-blog-description {
+  width: 490px;
+  height: 60px;
+  font: normal normal normal 18px/30px "Nunito Sans";
+  letter-spacing: 0px;
+  color: #2f281e;
+  opacity: 0.6;
+  margin-bottom: 710px;
+}
+.our-blog-bottom-box-wrapper{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    z-index: 50;
+    gap: 40.5px;
+}
+
+.our-blog-bottom-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+}
+.our-blog-bottom-box-img{
+  width: 100%;
+  max-width: 360px;
+}
+.our-blog-bottom-box:nth-child(1) .our-blog-bottom-box-img{
+  border-top-right-radius: 50px;
+}
+.our-blog-bottom-box:nth-child(2) .our-blog-bottom-box-img{
+  border-top-left-radius: 50px;
+}
+.our-blog-bottom-box:nth-child(3) .our-blog-bottom-box-img{
+  border-top-left-radius: 50px;
+}
+.our-blog-cards1 {
+  background: var(--unnamed-color-ffffff) ;
+  background: #ffffff ;
+  border-radius: 0px 50px;
+  opacity: 1;
+}
+.our-blog-cards2 {
+  background: var(--unnamed-color-ffffff) ;
+  background: #ffffff ;
+  border-radius: 0px 50px;
+  opacity: 1;
+}
+.our-blog-cards3 {
+  background: var(--unnamed-color-ffffff) ;
+  background: #ffffff ;
+  border-radius: 50px 0px;
+  opacity: 1;
+}
+.our-blog-bottom-box-img-title1 {
+  position: absolute;
+  display: inline-block;
+  top: 195.5px;
+  left: 244px;
+  width: 116px;
+  height: 44px;
+  font: normal normal 600 20px/30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #ffb201 ;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 1;
+  padding: 7px 25px 7px 25px;
+}
+
+.our-blog-bottom-box-img-title2 {
+  position: absolute;
+  display: inline-block;
+  top: 195.5px;
+  left: 244px;
+  width: 116px;
+  height: 44px;
+  font: normal normal 600 20px/30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #FF8100 ;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 1;
+  padding: 7px 25px 7px 25px;
+}
+.our-blog-bottom-box-img-title3 {
+  position: absolute;
+  display: inline-block;
+  top: 195.5px;
+  left: 244px;
+  width: 116px;
+  height: 44px;
+  font: normal normal 600 20px/30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #662D91 ;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 1;
+  padding: 7px 25px 7px 25px;
+}
+
+
+.our-blog-text-box {
+  width: 100%;
+  max-width: 360px;
+  padding: 35px 70px 39px 45px;
+}
+
+.arrow-img {
+  width: 7px;
+  height: 12px;
+  margin-right: 0;
+}
+.our-blog-bottom-box-description {
+  width: 249px;
+  height: 120px;
+  text-align: left;
+  font: normal normal normal 18px/30px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 24px;
+}
+
+.our-blog-link1 {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  letter-spacing: 0px;
+  color: #ffb201;
+  opacity: 1;
+}
+.our-blog-link2 {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  letter-spacing: 0px;
+  color: #ffb201;
+  opacity: 1;
+}
+.our-blog-link3 {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  letter-spacing: 0px;
+  color: #662D91;
+  opacity: 1;
+}
+
+.arrow-img{
+  margin-left: 12px;
+}
+
+.dotimgbg{
+  position: absolute;
+  z-index: 1;
+  top: 626px;
+  right: -66px;
+
+}
+
+/* p className="our-blog-bottom-box-description">
+                  Set on a practical project based training model with the
+                  ourpose of improving the skills of Software Developers and
+                </p>
+                <a className="" href="#">
+                  Learn More <img className="" src={arrow} alt="" />
+                </a> */

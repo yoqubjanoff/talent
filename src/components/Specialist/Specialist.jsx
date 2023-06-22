@@ -6,7 +6,7 @@ import lupa from "../../assets/icons/lupa.svg";
 
 const Specialist = () => {
   return (
-    <section className="specialist-section">
+    <section className="specialist-section" id="Hire a specialist">
       <div className="container">
         <div className="specialist-wrapper">
           <div className="specialist-top-box">
@@ -127,9 +127,9 @@ const Specialist = () => {
                 <span className="skils-count">51</span>
               </div>
             </div>
-            <div className="categories-box d-flex">
+            <div className="categories-box d-flex align-items-center">
               <a href="#" className="categories-title">More categories</a>
-              <img className="arrow-img" src={arrow} alt="" />
+              <img className="arrows-img" src={arrow} alt="arrow right" />
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito+Sans:wght@400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Quicksand:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;500;600;700&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Quicksand:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
 html {
   box-sizing: border-box;
@@ -22,7 +23,6 @@ body {
   font-weight: 400;
   background-color: #fff;
   font-family: "Nunito Sans", sans-serif;
-  font-family: 'Mulish','Quicksand', sans-serif;
   
 }
 

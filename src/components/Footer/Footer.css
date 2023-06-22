@@ -1,0 +1,145 @@
+.footer {
+  padding: 116px 0 60px 0;
+  background-image: url(../../assets/images/uzbekmap.png);
+  background: transparent linear-gradient(218deg, #4bb665 0%, #41aad2 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #00000000;
+  border-radius: 30px 30px 0 0;
+}
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-start-box {
+  padding-right: 82px;
+}
+.firstY-line {
+  width: 4px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  margin-bottom: 42px;
+}
+
+.start-box-descriptions {
+  width: 362px;
+  height: 60px;
+  font: normal normal normal 18px/30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.Subcribe {
+  font: normal normal bold 18px/30px "Nunito sans";
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.form {
+  position: relative;
+}
+
+.footer-input {
+  position: relative;
+  width: 338px;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  padding: 10.5px 18px 12.5px 15px;
+}
+.footer-input::placeholder {
+  color: #ffffff;
+}
+.footer-btn {
+  position: absolute;
+  top: 5px;
+  left: 242.5px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 6.5px 14.5px 8.5px 14.5px;
+  border: none;
+  color: #44adb4;
+}
+.kopirayt {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+.kopiy-img {
+  width: 16.6px;
+  margin-right: 9.67px;
+}
+.kopiy-title {
+  font: normal normal 600 14px/20px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.footer-center-box {
+  padding-right: 48px;
+  padding-left: 68px;
+}
+
+.navigation {
+  font: normal normal bold 18px/24px "Nunito";
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-nav-items {
+  height: 25px;
+  font: normal normal normal 18px/24px "Nunito";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+.footer-nav-items:hover {
+  opacity: 1;
+}
+.footer-end-box {
+  padding-left: 48px;
+}
+
+.end-box-text-box {
+  width: 217px;
+}
+
+.adress {
+  font: normal normal bold 18px/24px "Nunito";
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 9px;
+  opacity: 0.6;
+}
+
+.end-box-description {
+  font: normal normal normal 18px/24px "Nunito";
+  letter-spacing: 0px;
+  color: #ffffff;
+  height: 152px;
+  opacity: 0.6;
+}
+
+.social-box {
+  margin-bottom: 45px;
+}
+
+.end-box-bootom-text {
+  display: flex;
+  gap: 22px;
+}
+.end-box-bottom-text {
+  width: 39px;
+  height: 16px;
+  text-align: center;
+  font: normal normal 600 14px/20px 'Nunito';
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}

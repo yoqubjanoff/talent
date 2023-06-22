@@ -2,6 +2,7 @@
   padding: 150px 0 154px 0;
 }
 .second-wrapper {
+  position: relative;
   display: flex;
   gap: 80px;
 }
@@ -15,12 +16,17 @@
   margin-bottom: 55px;
 }
 
-.startbox-items {
+.start-box{
   position: relative;
+}
+
+.startbox-items {
   padding-top: 8px;
+  margin-bottom: 21.5px;
 }
 
 .secondbox-textbox{
+  position: relative;
   margin-left: 115px;
 }
 
@@ -28,7 +34,7 @@
   content: "";
   position: absolute;
   top: 5px;
-  left: 8px;
+  left: -115px;
   width: 95px;
   height: 95px;
   background-repeat: no-repeat;
@@ -53,12 +59,6 @@
 }
 .secondbox-textbox.custom-bg-6::after {
   background-image: url("../../assets/icons/after6.png");
-}
-
-
-
-.startbox-items {
-  margin-bottom: 21px;
 }
 .startbox-items:hover {
   background-color: #fbf5ff;
@@ -136,4 +136,5 @@
   top: 451px;
   left: 269px;
 }
+
 

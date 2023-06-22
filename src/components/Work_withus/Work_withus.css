@@ -1,0 +1,130 @@
+.Work-withus {
+  padding-bottom: 169px;
+  background-image: url(../../assets/icons/dotbg.svg),url(../../assets/icons/dotbg.svg) ;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 90px) calc(50% - 145px), calc(50% - 538px) calc(50% - -150px);
+}
+
+.Work-withus-logo {
+  width: 175px;
+  height: 222px;
+}
+
+.Work-withus-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Work-withus-logo {
+  position: absolute;
+    top: 110px;
+    right: 850px;
+}
+
+.Work-withus-end-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-style-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Work-withus-end-box-title {
+  height: 60px;
+  text-align: left;
+  font: normal normal bold 48px/60px "Quicksand";
+  letter-spacing: 0px;
+  color: #2f281e;
+  margin-bottom: 62px;
+}
+.form-style-box {
+  width: 555px;
+}
+.form-top-box {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 31px;
+}
+
+.name-input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1cbf1;
+  border-radius: 5px;
+  padding: 20px 32px 22px 28px;
+  outline: none;
+}
+
+.name-input:focus {
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 5px;
+  border: 1px solid transparent;
+
+  border: none;
+}
+.email-input {
+  width: 555px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1cbf1;
+  border-radius: 5px;
+  padding: 20px 32px 22px 28px;
+  outline: none;
+  margin-bottom: 31px;
+}
+
+.email-input:focus {
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.phone-input {
+  width: 555px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1cbf1;
+  border-radius: 5px;
+  padding: 20px 32px 22px 28px;
+  outline: none;
+  margin-bottom: 31px;
+}
+
+.phone-input:focus {
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid transparent;
+}
+.btn {
+  background: transparent linear-gradient(232deg, #4bb665 0%, #41aad2 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #00000000;
+  border-radius: 30px;
+  padding: 19px 76px 18px 75px;
+  font: normal normal medium 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+/* lassName="Work-withus">
+      <div className="container">
+        <div className="Work-withus-wrapper">
+          <div className="Work-withus-start-box">
+            <img className="Work-withus-logo" src={logo} alt="" />
+          </div>
+          <div className="Work-withus-end-box">
+            <h2 className="Work-withus-end-box-title">Work with us</h2>
+            <form>
+              <div className="form-style-box">
+                <div className="">
+                  <input className="" type="text" placeholder="Your name" />
+                  <input className="name-input" type="text" placeholder="Last Name" />
+                </div>
+                <input className="email-input"  type="email" placeholder="Email Address" />
+                <input className="email-input" type="text" placeholder="Phone Number" />
+                <button className="btn">Send</button> */
