@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/icons/logotip.svg";
-import kasoy from "../../assets/icons/kasoy.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -83,12 +82,6 @@ const Navbar = () => {
                 EN
               </a>
             </div>
-          </div>
-          <img className="kasoy-img" src={kasoy} alt="position image" />
-          <div className="position-text-box">
-            <p className="position-text">Hire</p>
-            <p className="position-text">Curate</p>
-            <p className="position-text">Cultivate</p>
           </div>
         </div>
       </div>
